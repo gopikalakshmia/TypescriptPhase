@@ -16,4 +16,8 @@ addNewShows(){
  deleteShows(){
     new Addsevice<shows>().DeleteShows(new shows);
  }
+
+ modifyShows(){
+     new new Addsevice<shows>().ModifyShows(new shows);
+ }
 }

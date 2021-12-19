@@ -11,14 +11,14 @@ export class Playlist extends BaseClass{
         console.log("YOur  playlist");
     }
 
-    addNewShows(){
+    addNewShowstoPlaylist(){
        new Addsevice<Playlist>().AddnewShows(new Playlist);
     }
 
-    deleteShows(){
+    deleteShowsfromPlaylist(){
         new Addsevice<Playlist>().DeleteShows(new Playlist);
      }
-     modifyShows(){
+     modifyShowsInPlaylist(){
         new new Addsevice<Playlist>().ModifyShows(new Playlist);
     }
     
