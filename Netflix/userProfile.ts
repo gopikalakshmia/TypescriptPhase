@@ -15,6 +15,7 @@ export class userprofile extends  Playlist  {
     showsForUser(){
         var shows=new shows();
         this.showsforUser.getrecentlywatchedshows();
+        this.getPlaylist();
         
     }
 }
