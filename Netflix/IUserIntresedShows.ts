@@ -1,3 +1,5 @@
 export interface IUserIntrestedShows{
-    getUserIntrest();
+
+    getrecentlywatchedshows();
+
 }

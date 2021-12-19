@@ -1,10 +1,9 @@
 import { IUserIntrestedShows } from "./IUserIntresedShows";
-import { newlyAddedshows } from "./newlyAddedShows";
 import { Playlist } from "./Playlist";
 import { shows } from "./shows";
 
 
-export class userprofile extends  Playlist {
+export class userprofile extends  Playlist  {
     name:string;
     userId:number;
     Recentlywatched:string[];
@@ -15,7 +14,7 @@ export class userprofile extends  Playlist {
 
     showsForUser(){
         var shows=new shows();
-        this.showsforUser.getUserIntrest();
+        this.showsforUser.getrecentlywatchedshows();
         
     }
 }
